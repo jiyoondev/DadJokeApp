@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="answer1">&quot; 정답은 &apos;무뚝뚝&apos; 이다냥! &quot;</string>
+    <string name="answer2">&quot; 정답은 &apos;개인지도&apos; 다냥! &quot;</string>
+    <string name="answer3">&quot; 정답은 &apos;다섯&apos; 이다냥! &quot;</string>
+    <string name="answer4">&quot; 정답은 &apos;하이에나&apos; 다냥! &quot;</string>
+    <string name="answer5">&quot; 정답은 &apos;할머니&apos; 다냥! &quot;</string>
+    <string name="answer6">&quot; 정답은 &apos;호주머니&apos; 다냥! &quot;</string>
+    <string name="answer7">&quot; 정답은 &apos;칠레&apos; 다냥! &quot;</string>
+    <string name="answer8">&quot; 정답은 &apos;원통&apos; 이다냥! &quot;</string>
+    <string name="answer9">&quot; 정답은 &apos;피자&apos; 다냥! &quot;</string>
+    <string name="answer10">&quot; 정답은 &apos;사자&apos; 다냥! &quot;</string>
+</resources>

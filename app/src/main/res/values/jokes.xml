@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="joke1">&quot; 무가 울면 뭘까~냥? &quot;</string>
+    <string name="joke2">&quot; 개가 사람을 가르치면 뭘까~냥? &quot;</string>
+    <string name="joke3">&quot; 사람을 모두 일어나게 하는 숫자는 뭘까~냥? &quot;</string>
+    <string name="joke4">&quot; 높은 곳에서 아기를 낳으면 뭘까~냥? &quot;</string>
+    <string name="joke5">&quot; 할아버지가 좋아하는 돈은 뭘까~냥? &quot;"</string>
+    <string name="joke6">&quot; 호주의 돈은 뭘까~냥? &quot;</string>
+    <string name="joke7">&quot; 싸움을 가장 좋아하는 나라는 뭘까~냥? &quot;</string>
+    <string name="joke8">&quot; 제일 억울한 도형은 뭘까~냥? &quot;</string>
+    <string name="joke9">&quot; 다리미가 좋아하는 음식은 뭘까~냥? &quot;</string>
+    <string name="joke10">&quot; 과소비가 심한 동물은 뭘까~냥? &quot;</string>
+</resources>

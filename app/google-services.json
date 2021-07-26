@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "202198121187",
+    "project_id": "primeval-wind-315011",
+    "storage_bucket": "primeval-wind-315011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202198121187:android:7a27bfd93dcbd0aa7463d6",
+        "android_client_info": {
+          "package_name": "com.jiyoon.dadjokeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202198121187-oprrsq6s6grv8muc2s9uce4b7cudgp15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDErBRvX9A5CAfVkwiGZ5d4n3qskBp1Vg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202198121187-oprrsq6s6grv8muc2s9uce4b7cudgp15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

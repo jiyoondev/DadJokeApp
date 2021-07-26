@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/answerImage"
+        android:src="@drawable/answer_cat1"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/answerTalk"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/answerTalk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="&quot; 정답은 &apos;무뚝뚝&apos; 이다냥! &quot;"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#F48338"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/answerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="당신의 고양이가 재밌는 농담을 합니다!"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/answerTalk"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/answerButton"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toBottomOf="@id/answerText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="80dp"
+        android:text="재밌네..."
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#EFEFEF"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toLeftOf="@+id/shareButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/ic_share_bubble3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공유해\n 달라냥!"
+            android:textAlignment="center"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="0dp" />
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/shareButton"
+        android:src="@drawable/ic_cat_share2"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        android:layout_marginRight="20dp"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
