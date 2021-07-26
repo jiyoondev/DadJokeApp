@@ -1,2 +1,2 @@
 # DadJokeApp
-https://user-images.githubusercontent.com/80487426/127070852-304535e2-b3dd-401d-9e44-ba72287855d3.mov
+![DadJokeApp](https://user-images.githubusercontent.com/80487426/127072355-0dad8314-c083-48bc-b011-aba241d63796.gif)
